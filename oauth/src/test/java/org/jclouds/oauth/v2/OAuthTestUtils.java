@@ -53,6 +53,7 @@ public class OAuthTestUtils {
       properties.put("oauth.endpoint", "http://localhost:5000/o/oauth2/token");
       properties.put(AUDIENCE, "https://accounts.google.com/o/oauth2/token");
       properties.put(OAuthProperties.CREDENTIAL_TYPE, CredentialType.BEARER_TOKEN_CREDENTIALS.toString());
+      properties.put(OAuthProperties.SIGNATURE_OR_MAC_ALGORITHM, "none");
       return properties;
    }
 

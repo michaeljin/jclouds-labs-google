@@ -36,6 +36,6 @@ public class BearerTokenAuthenticator implements OAuthAuthenticationFilter {
    @Override
    public HttpRequest filter(HttpRequest request) throws HttpException {
       return request.toBuilder().addHeader("Authorization", String.format("%s %s",
-            "Bearer ", creds.get().credential)).build();
+            "Bearer", creds.get().credential)).build();
    }
 }
