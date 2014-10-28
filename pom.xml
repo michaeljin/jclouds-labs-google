@@ -33,7 +33,7 @@
     <connection>scm:git:https://git-wip-us.apache.org/repos/asf/jclouds-labs-google.git</connection>
     <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/jclouds-labs-google.git</developerConnection>
     <url>https://git-wip-us.apache.org/repos/asf?p=jclouds-labs-google.git</url>
-    <tag>jclouds-labs-google-1.8.1-rc1</tag>
+    <tag>jclouds-labs-google-1.8.1</tag>
   </scm>
 
   <properties>
@@ -66,6 +66,18 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+  <distributionManagement>
+      <repository>
+          <id>third-party-patch</id>
+          <name>Third Party Patch</name>
+          <url>http://nexus.msphere.co/nexus/content/repositories/third-party-patch/</url>
+      </repository>
+      <snapshotRepository>
+          <id>third-party-patch</id>
+          <name>Third Party Patch</name>
+          <url>http://nexus.msphere.co/nexus/content/repositories/third-party-patch/</url>
+      </snapshotRepository>
+  </distributionManagement>
 
   <modules>
     <module>oauth</module>
