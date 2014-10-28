@@ -53,6 +53,19 @@
     </repository>
   </repositories>
 
+  <distributionManagement>
+      <repository>
+          <id>third-party-patch</id>
+          <name>Third Party Patch</name>
+          <url>http://nexus.msphere.co/nexus/content/repositories/third-party-patch/</url>
+      </repository>
+      <snapshotRepository>
+          <id>third-party-patch</id>
+          <name>Third Party Patch</name>
+          <url>http://nexus.msphere.co/nexus/content/repositories/third-party-patch/</url>
+      </snapshotRepository>
+  </distributionManagement>
+
   <modules>
     <module>oauth</module>
     <module>google-compute-engine</module>
