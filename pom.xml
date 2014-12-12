@@ -68,9 +68,9 @@
   </pluginRepositories>
   <distributionManagement>
       <repository>
-          <id>third-party-patch</id>
-          <name>Third Party Patch</name>
-          <url>http://nexus.msphere.co/nexus/content/repositories/third-party-patch/</url>
+          <id>third-party-patch-release</id>
+          <name>Third Party Patch Release</name>
+          <url>http://nexus.msphere.co/nexus/content/repositories/third-party-patch-release/</url>
       </repository>
       <snapshotRepository>
           <id>third-party-patch</id>
