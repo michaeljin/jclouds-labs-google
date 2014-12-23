@@ -27,7 +27,7 @@
 
     <!-- TODO: when out of labs, switch to org.jclouds.provider -->
     <groupId>org.apache.jclouds.labs</groupId>
-    <artifactId>google-compute-engine</artifactId>
+    <artifactId>google-compute-engine-patch</artifactId>
     <name>jclouds Google Compute Engine provider</name>
     <description>jclouds components to access GoogleCompute</description>
 
